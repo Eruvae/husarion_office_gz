@@ -1,5 +1,7 @@
+<?xml version="1.0"?>
+
 <sdf version='1.7'>
-  <world name='world'>
+  <world name='husarion_office'>
     <scene>
       <ambient>0.8 0.8 0.8 1</ambient>
       <background>0 0 0 1</background>
@@ -106,14 +108,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/mopcart2/1/files/meshes/MopCart2.obj</uri>
+              <uri>models/MopCart2/meshes/MopCart2.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/mopcart2/1/files/meshes/MopCart2.obj</uri>
+              <uri>models/MopCart2/meshes/MopCart2.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -143,14 +145,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/mopcart3/1/files/meshes/MopCart3.obj</uri>
+              <uri>models/MopCart3/meshes/MopCart3.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/mopcart3/1/files/meshes/MopCart3.obj</uri>
+              <uri>models/MopCart3/meshes/MopCart3.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -181,19 +183,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Door/meshes/door.stl</uri>
+              <uri>models/Door/meshes/door.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -221,7 +223,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Door/meshes/door.stl</uri>
+              <uri>models/Door/meshes/door.stl</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -239,14 +241,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -276,14 +278,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -313,14 +315,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -350,14 +352,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -387,14 +389,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -424,14 +426,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -461,19 +463,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://ConfTable/meshes/ConfTable2.stl</uri>
+              <uri>models/ConfTable/meshes/ConfTable2.stl</uri>
               <scale>0.016 0.013 0.01</scale>
             </mesh>
           </geometry>
@@ -501,7 +503,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://ConfTable/meshes/ConfTable2.stl</uri>
+              <uri>models/ConfTable/meshes/ConfTable2.stl</uri>
               <scale>0.016 0.013 0.01</scale>
             </mesh>
           </geometry>
@@ -519,19 +521,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Tv/meshes/tv.stl</uri>
+              <uri>models/Tv/meshes/tv.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -559,7 +561,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Tv/meshes/tv.stl</uri>
+              <uri>models/Tv/meshes/tv.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -577,19 +579,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://WaterDispenser/meshes/WaterDispenser.dae</uri>
+              <uri>models/WaterDispenser/meshes/WaterDispenser.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -611,7 +613,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://WaterDispenser/meshes/WaterDispenser.dae</uri>
+              <uri>models/WaterDispenser/meshes/WaterDispenser.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -629,19 +631,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Kitchen/meshes/kitchen.stl</uri>
+              <uri>models/Kitchen/meshes/kitchen.stl</uri>
               <scale>0.0005 0.0005 0.0005</scale>
             </mesh>
           </geometry>
@@ -663,7 +665,7 @@
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Kitchen/meshes/kitchen.stl</uri>
+              <uri>models/Kitchen/meshes/kitchen.stl</uri>
               <scale>0.0005 0.0005 0.0005</scale>
             </mesh>
           </geometry>
@@ -719,7 +721,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/box.dae</uri>
+              <uri>models/rosbot/meshes/box.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -746,7 +748,7 @@
         <child>top_cover</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -775,7 +777,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/upper.dae</uri>
+              <uri>models/rosbot/meshes/upper.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -836,7 +838,7 @@
           <pose>0 0 0 0 -0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -918,7 +920,7 @@
           <pose>0 0 0 0 0 -1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1000,7 +1002,7 @@
           <pose>0 0 0 0 -0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1083,7 +1085,7 @@
           <pose>0 0 0 0 0 -1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1161,7 +1163,7 @@
         <child>camera_link</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1190,7 +1192,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/astra.dae</uri>
+              <uri>models/rosbot/meshes/astra.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1238,7 +1240,7 @@
         <child>laser_link</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1267,7 +1269,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/rplidar.dae</uri>
+              <uri>models/rosbot/meshes/rplidar.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1324,7 +1326,7 @@
         <child>range_fl</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1379,7 +1381,7 @@
         <child>range_fr</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1434,7 +1436,7 @@
         <child>range_rr</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1489,7 +1491,7 @@
         <child>range_rl</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1586,7 +1588,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/box.dae</uri>
+              <uri>models/rosbot/meshes/box.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1613,7 +1615,7 @@
         <child>top_cover</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -1642,7 +1644,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/upper.dae</uri>
+              <uri>models/rosbot/meshes/upper.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1703,7 +1705,7 @@
           <pose>0 0 0 0 -0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1785,7 +1787,7 @@
           <pose>0 0 0 0 0 -1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1867,7 +1869,7 @@
           <pose>0 0 0 0 -0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -1950,7 +1952,7 @@
           <pose>0 0 0 0 0 -1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2028,7 +2030,7 @@
         <child>camera_link</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2057,7 +2059,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/astra.dae</uri>
+              <uri>models/rosbot/meshes/astra.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2105,7 +2107,7 @@
         <child>laser_link</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2134,7 +2136,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/rplidar.dae</uri>
+              <uri>models/rosbot/meshes/rplidar.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2191,7 +2193,7 @@
         <child>range_fl</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2246,7 +2248,7 @@
         <child>range_fr</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2301,7 +2303,7 @@
         <child>range_rr</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2356,7 +2358,7 @@
         <child>range_rl</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2453,7 +2455,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/box.dae</uri>
+              <uri>models/rosbot/meshes/box.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2480,7 +2482,7 @@
         <child>top_cover</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2509,7 +2511,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/upper.dae</uri>
+              <uri>models/rosbot/meshes/upper.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2570,7 +2572,7 @@
           <pose>0 0 0 0 -0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2652,7 +2654,7 @@
           <pose>0 0 0 0 0 -1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2734,7 +2736,7 @@
           <pose>0 0 0 0 -0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2817,7 +2819,7 @@
           <pose>0 0 0 0 0 -1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/wheel.dae</uri>
+              <uri>models/rosbot/meshes/wheel.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2895,7 +2897,7 @@
         <child>camera_link</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -2924,7 +2926,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/astra.dae</uri>
+              <uri>models/rosbot/meshes/astra.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -2972,7 +2974,7 @@
         <child>laser_link</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -3001,7 +3003,7 @@
           <pose>0 0 0 1.5707 0 1.5707</pose>
           <geometry>
             <mesh>
-              <uri>model://rosbot/meshes/rplidar.dae</uri>
+              <uri>models/rosbot/meshes/rplidar.dae</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3058,7 +3060,7 @@
         <child>range_fl</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -3113,7 +3115,7 @@
         <child>range_fr</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -3168,7 +3170,7 @@
         <child>range_rr</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -3223,7 +3225,7 @@
         <child>range_rl</child>
         <parent>base_link</parent>
         <axis>
-          <xyz>0 0 0</xyz>
+          <xyz>0 1 0</xyz>
           <limit>
             <lower>-1e+16</lower>
             <upper>1e+16</upper>
@@ -3282,19 +3284,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3322,7 +3324,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3340,19 +3342,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3380,7 +3382,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3398,19 +3400,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3438,7 +3440,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3456,19 +3458,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3496,7 +3498,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3514,19 +3516,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3554,7 +3556,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3572,19 +3574,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3612,7 +3614,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3630,19 +3632,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3670,7 +3672,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3688,19 +3690,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3728,7 +3730,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3746,19 +3748,19 @@
           <pose>0 0 0 0 -0 0</pose>
           <mass>1</mass>
           <inertia>
-            <ixx>0</ixx>
+            <ixx>1</ixx>
             <ixy>0</ixy>
             <ixz>0</ixz>
-            <iyy>0</iyy>
+            <iyy>1</iyy>
             <iyz>0</iyz>
-            <izz>0</izz>
+            <izz>1</izz>
           </inertia>
         </inertial>
         <collision name='collision'>
           <pose>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3786,7 +3788,7 @@
           </material>
           <geometry>
             <mesh>
-              <uri>model://Laptop/meshes/laptop.stl</uri>
+              <uri>models/Laptop/meshes/laptop.stl</uri>
               <scale>0.001 0.001 0.001</scale>
             </mesh>
           </geometry>
@@ -3804,14 +3806,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3841,14 +3843,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3878,14 +3880,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3915,14 +3917,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3952,14 +3954,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -3989,14 +3991,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4026,14 +4028,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4063,14 +4065,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4100,14 +4102,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4137,14 +4139,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4174,14 +4176,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4211,14 +4213,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4248,14 +4250,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/adjtable/3/files/meshes/AdjTable_Col.obj</uri>
+              <uri>models/AdjTable/meshes/AdjTable_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4285,14 +4287,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/bathroomsink/1/files/meshes/BathroomSink.obj</uri>
+              <uri>models/BathroomSink/meshes/BathroomSink.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/bathroomsink/1/files/meshes/BathroomSink_Col.obj</uri>
+              <uri>models/BathroomSink/meshes/BathroomSink_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4344,7 +4346,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4384,7 +4386,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4424,7 +4426,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4464,7 +4466,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4504,7 +4506,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4544,7 +4546,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4584,7 +4586,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4624,7 +4626,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4664,7 +4666,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/deskchair/1/files/meshes/DeskChair.obj</uri>
+              <uri>models/DeskChair/meshes/DeskChair.obj</uri>
               <scale>0.01 0.01 0.01</scale>
             </mesh>
           </geometry>
@@ -4681,7 +4683,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/toilet/1/files/meshes/toilet.obj</uri>
+              <uri>models/Toilet/meshes/toilet.obj</uri>
               <scale>1.75 1.75 1.75</scale>
             </mesh>
           </geometry>
@@ -4689,7 +4691,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/toilet/1/files/meshes/toilet.obj</uri>
+              <uri>models/Toilet/meshes/toilet.obj</uri>
               <scale>1.75 1.75 1.75</scale>
             </mesh>
           </geometry>
@@ -4721,14 +4723,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4758,14 +4760,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4795,14 +4797,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4832,14 +4834,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4869,14 +4871,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4906,14 +4908,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -4978,7 +4980,7 @@
             </script>
             <pbr>
               <metal>
-                <albedo_map>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/table/3/files/Table_Diffuse.jpg</albedo_map>
+                <albedo_map>models/Table/Table_Diffuse.jpg</albedo_map>
               </metal>
             </pbr>
           </material>
@@ -5183,7 +5185,7 @@
             </script>
             <pbr>
               <metal>
-                <albedo_map>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/table/3/files/Table_Diffuse.jpg</albedo_map>
+                <albedo_map>models/Table/Table_Diffuse.jpg</albedo_map>
               </metal>
             </pbr>
           </material>
@@ -5353,14 +5355,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair_Col.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5390,14 +5392,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair_Col.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5427,14 +5429,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair_Col.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5464,14 +5466,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair_Col.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5501,14 +5503,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair_Col.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5538,14 +5540,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/woodenchair/1/files/meshes/WoodenChair_Col.obj</uri>
+              <uri>models/WoodenChair/meshes/WoodenChair_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5575,14 +5577,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5612,14 +5614,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5649,14 +5651,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/trashbin/1/files/meshes/TrashBin.obj</uri>
+              <uri>models/TrashBin/meshes/TrashBin.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5686,14 +5688,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5723,14 +5725,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5760,14 +5762,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5797,14 +5799,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+              <uri>models/OfficeChairBlack/meshes/OfficeChairBlack_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5833,7 +5835,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/coffeetable/1/files/meshes/CoffeeTable.obj</uri>
+              <uri>models/CoffeeTable/meshes/CoffeeTable.obj</uri>
               <scale>0.00817 0.00817 0.00817</scale>
             </mesh>
           </geometry>
@@ -5841,7 +5843,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/coffeetable/1/files/meshes/CoffeeTable.obj</uri>
+              <uri>models/CoffeeTable/meshes/CoffeeTable.obj</uri>
               <scale>0.00817 0.00817 0.00817</scale>
             </mesh>
           </geometry>
@@ -5873,14 +5875,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5910,14 +5912,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/squareshelf/2/files/meshes/SquareShelf.obj</uri>
+              <uri>models/SquareShelf/meshes/SquareShelf.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/squareshelf/2/files/meshes/SquareShelf_Col.obj</uri>
+              <uri>models/SquareShelf/meshes/SquareShelf_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5947,14 +5949,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/squareshelf/2/files/meshes/SquareShelf.obj</uri>
+              <uri>models/SquareShelf/meshes/SquareShelf.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/squareshelf/2/files/meshes/SquareShelf_Col.obj</uri>
+              <uri>models/SquareShelf/meshes/SquareShelf_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -5984,14 +5986,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/squareshelf/2/files/meshes/SquareShelf.obj</uri>
+              <uri>models/SquareShelf/meshes/SquareShelf.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/squareshelf/2/files/meshes/SquareShelf_Col.obj</uri>
+              <uri>models/SquareShelf/meshes/SquareShelf_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6021,14 +6023,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6058,14 +6060,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6095,14 +6097,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6132,14 +6134,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/fridge/1/files/meshes/Fridge.obj</uri>
+              <uri>models/Fridge/meshes/Fridge.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/fridge/1/files/meshes/Fridge_Col.obj</uri>
+              <uri>models/Fridge/meshes/Fridge_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6169,14 +6171,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/fridge/1/files/meshes/Fridge.obj</uri>
+              <uri>models/Fridge/meshes/Fridge.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/fridge/1/files/meshes/Fridge_Col.obj</uri>
+              <uri>models/Fridge/meshes/Fridge_Col.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6206,14 +6208,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6243,14 +6245,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6280,14 +6282,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/whitecabinet/1/files/meshes/WhiteCabinet.obj</uri>
+              <uri>models/WhiteCabinet/meshes/WhiteCabinet.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6317,14 +6319,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6354,14 +6356,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6391,14 +6393,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6428,14 +6430,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6465,14 +6467,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6502,14 +6504,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6539,14 +6541,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6576,14 +6578,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6613,14 +6615,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6650,14 +6652,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -6687,14 +6689,14 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
         </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/drawer/1/files/meshes/Drawer.obj</uri>
+              <uri>models/Drawer/meshes/Drawer.obj</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -7455,7 +7457,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_1.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_1.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7464,11 +7466,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/wood1.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/wood1.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_1_Diffuse</name>
             </script>
           </material>
@@ -7476,7 +7478,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_1.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_1.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7502,7 +7504,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_2.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_2.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7511,11 +7513,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_2_Diffuse</name>
             </script>
           </material>
@@ -7523,7 +7525,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_2.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_2.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7549,7 +7551,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_3.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_3.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7558,11 +7560,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_3_Diffuse</name>
             </script>
           </material>
@@ -7570,7 +7572,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_3.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_3.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7596,7 +7598,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_4.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_4.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7605,11 +7607,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/black_concrete.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/black_concrete.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_4_Diffuse</name>
             </script>
           </material>
@@ -7617,7 +7619,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_4.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_4.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7643,7 +7645,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_5.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_5.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7652,11 +7654,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_5_Diffuse</name>
             </script>
           </material>
@@ -7664,7 +7666,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_5.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_5.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7690,7 +7692,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_6.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_6.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7699,11 +7701,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_6_Diffuse</name>
             </script>
           </material>
@@ -7711,7 +7713,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_6.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_6.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7737,7 +7739,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_7.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_7.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7746,11 +7748,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_7_Diffuse</name>
             </script>
           </material>
@@ -7758,7 +7760,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_7.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_7.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7784,7 +7786,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_8.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_8.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7793,11 +7795,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_8_Diffuse</name>
             </script>
           </material>
@@ -7805,7 +7807,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_8.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_8.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7831,7 +7833,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_9.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_9.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7840,11 +7842,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/wood1.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/wood1.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_9_Diffuse</name>
             </script>
           </material>
@@ -7852,7 +7854,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_9.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_9.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7878,7 +7880,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_10.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_10.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7887,11 +7889,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_10_Diffuse</name>
             </script>
           </material>
@@ -7899,7 +7901,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_10.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_10.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7925,7 +7927,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_11.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_11.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7934,11 +7936,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/wood1.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/wood1.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_11_Diffuse</name>
             </script>
           </material>
@@ -7946,7 +7948,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_11.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_11.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -7972,7 +7974,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_12.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_12.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -7981,11 +7983,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_12_Diffuse</name>
             </script>
           </material>
@@ -7993,7 +7995,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_12.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_12.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8019,7 +8021,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_13.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_13.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -8028,11 +8030,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_13_Diffuse</name>
             </script>
           </material>
@@ -8040,7 +8042,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_13.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_13.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8066,7 +8068,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_14.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_14.obj</uri>
             </mesh>
           </geometry>
           <material>
@@ -8075,11 +8077,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/black_concrete.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/black_concrete.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>floor_14_Diffuse</name>
             </script>
           </material>
@@ -8087,7 +8089,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/floor_14.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/floor_14.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8113,7 +8115,7 @@
         <visual name='wall_1'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/wall_1.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/wall_1.obj</uri>
             </mesh>
           </geometry>
           <transparency>0</transparency>
@@ -8123,11 +8125,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/white_wall.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/white_wall.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>wall_1_Diffuse</name>
             </script>
           </material>
@@ -8135,7 +8137,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/wall_1.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/wall_1.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8162,7 +8164,7 @@
         <visual name='wall_2'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/wall_2.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/wall_2.obj</uri>
             </mesh>
           </geometry>
           <transparency>0</transparency>
@@ -8172,11 +8174,11 @@
             <pbr>
               <metal>
                 <metalness>0.0</metalness>
-                <albedo_map>model://pradnicka_office_L1/meshes/wood2.png</albedo_map>
+                <albedo_map>models/pradnicka_office_L1/meshes/wood2.png</albedo_map>
               </metal>
             </pbr>
             <script>
-              <uri>model://pradnicka_office_L1/meshes/</uri>
+              <uri>models/pradnicka_office_L1/meshes/</uri>
               <name>wall_2_Diffuse</name>
             </script>
           </material>
@@ -8184,7 +8186,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model://pradnicka_office_L1/meshes/wall_2.obj</uri>
+              <uri>models/pradnicka_office_L1/meshes/wall_2.obj</uri>
             </mesh>
           </geometry>
           <surface>
@@ -8267,7 +8269,7 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <state world_name='world'>
+    <state world_name='husarion_office'>
       <sim_time>165 529000000</sim_time>
       <real_time>172 382340040</real_time>
       <wall_time>1650056896 307077941</wall_time>

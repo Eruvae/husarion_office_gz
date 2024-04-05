@@ -34,7 +34,7 @@
                     
                     <pbr>
                         <metal>
-                            <albedo_map>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/table/3/files/Table_Diffuse.jpg</albedo_map>
+                            <albedo_map>Table_Diffuse.jpg</albedo_map>
                         </metal>
                     </pbr>
                 </material>

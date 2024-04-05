@@ -5,14 +5,14 @@
             <visual name="visual">
                 <geometry>
                     <mesh>
-                        <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/mopcart3/1/files/meshes/MopCart3.obj</uri>
+                        <uri>meshes/MopCart3.obj</uri>
                     </mesh>
                 </geometry>
             </visual>
             <collision name="collision">
                 <geometry>
                     <mesh>
-                        <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/mopcart3/1/files/meshes/MopCart3.obj</uri>
+                        <uri>meshes/MopCart3.obj</uri>
                     </mesh>
                 </geometry>
             </collision>

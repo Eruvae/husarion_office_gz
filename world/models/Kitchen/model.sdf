@@ -20,7 +20,7 @@
         <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
         <geometry>
           <mesh>
-				  	<uri>model://Kitchen/meshes/kitchen.stl</uri>
+				  	<uri>meshes/kitchen.stl</uri>
 				  	<scale>0.0005 0.0005 0.0005</scale>
 				  </mesh>
         </geometry>
@@ -29,7 +29,7 @@
         <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
         <geometry>
           <mesh>
-				  	<uri>model://Kitchen/meshes/kitchen.stl</uri>
+				  	<uri>meshes/kitchen.stl</uri>
 				  	<scale>0.0005 0.0005 0.0005</scale>
 				  </mesh>
         </geometry>
@@ -37,4 +37,3 @@
     </link>
   </model>
  </sdf>
-

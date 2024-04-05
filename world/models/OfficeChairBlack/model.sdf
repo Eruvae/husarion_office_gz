@@ -6,14 +6,14 @@
             <visual name="visual">
                 <geometry>
                     <mesh>
-                        <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack.obj</uri>
+                        <uri>meshes/OfficeChairBlack.obj</uri>
                     </mesh>
                 </geometry>
             </visual>
             <collision name="collision">
                 <geometry>
                     <mesh>
-                        <uri>https://fuel.ignitionrobotics.org/1.0/openrobotics/models/officechairblack/1/files/meshes/OfficeChairBlack_Col.obj</uri>
+                        <uri>meshes/OfficeChairBlack_Col.obj</uri>
                     </mesh>
                 </geometry>
             </collision>

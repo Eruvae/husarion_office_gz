@@ -32,7 +32,7 @@
         <pose>0 0 0 1.5707 0 1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/box.dae</uri>
+            <uri>meshes/box.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -85,7 +85,7 @@
         <pose>0 0 0 1.5707 0 1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/upper.dae</uri>
+            <uri>meshes/upper.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -153,7 +153,7 @@
         <pose>0 0 0 0 0 1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/wheel.dae</uri>
+            <uri>meshes/wheel.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -216,7 +216,7 @@
         <pose>0 0 0 0 0 -1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/wheel.dae</uri>
+            <uri>meshes/wheel.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -279,7 +279,7 @@
         <pose>0 0 0 0 0 1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/wheel.dae</uri>
+            <uri>meshes/wheel.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -344,7 +344,7 @@
         <pose>0 0 0 0 0 -1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/wheel.dae</uri>
+            <uri>meshes/wheel.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -433,7 +433,7 @@
         <pose>0 0 0 1.5707 0 1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/astra.dae</uri>
+            <uri>meshes/astra.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>
@@ -520,7 +520,7 @@
         <pose>0 0 0 1.5707 0 1.5707</pose>
         <geometry>
           <mesh>
-            <uri>model://rosbot/meshes/rplidar.dae</uri>
+            <uri>meshes/rplidar.dae</uri>
             <scale>0.001 0.001 0.001</scale>
           </mesh>
         </geometry>

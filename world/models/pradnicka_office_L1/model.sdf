@@ -6,7 +6,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_1.obj</uri>
+            <uri>meshes/floor_1.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -15,11 +15,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/wood1.png</albedo_map>
+              <albedo_map>meshes/wood1.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_1_Diffuse</name>
           </script>
         </material>
@@ -27,7 +27,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_1.obj</uri>
+            <uri>meshes/floor_1.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -41,7 +41,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_2.obj</uri>
+            <uri>meshes/floor_2.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -50,11 +50,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+              <albedo_map>meshes/white_carpet.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_2_Diffuse</name>
           </script>
         </material>
@@ -62,7 +62,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_2.obj</uri>
+            <uri>meshes/floor_2.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -76,7 +76,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_3.obj</uri>
+            <uri>meshes/floor_3.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -85,11 +85,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+              <albedo_map>meshes/white_carpet.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_3_Diffuse</name>
           </script>
         </material>
@@ -97,7 +97,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_3.obj</uri>
+            <uri>meshes/floor_3.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -111,7 +111,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_4.obj</uri>
+            <uri>meshes/floor_4.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -120,11 +120,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/black_concrete.png</albedo_map>
+              <albedo_map>meshes/black_concrete.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_4_Diffuse</name>
           </script>
         </material>
@@ -132,7 +132,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_4.obj</uri>
+            <uri>meshes/floor_4.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -146,7 +146,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_5.obj</uri>
+            <uri>meshes/floor_5.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -155,11 +155,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+              <albedo_map>meshes/white_tiles.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_5_Diffuse</name>
           </script>
         </material>
@@ -167,7 +167,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_5.obj</uri>
+            <uri>meshes/floor_5.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -181,7 +181,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_6.obj</uri>
+            <uri>meshes/floor_6.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -190,11 +190,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+              <albedo_map>meshes/white_tiles.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_6_Diffuse</name>
           </script>
         </material>
@@ -202,7 +202,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_6.obj</uri>
+            <uri>meshes/floor_6.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -216,7 +216,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_7.obj</uri>
+            <uri>meshes/floor_7.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -225,11 +225,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+              <albedo_map>meshes/white_tiles.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_7_Diffuse</name>
           </script>
         </material>
@@ -237,7 +237,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_7.obj</uri>
+            <uri>meshes/floor_7.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -251,7 +251,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_8.obj</uri>
+            <uri>meshes/floor_8.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -260,11 +260,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+              <albedo_map>meshes/white_carpet.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_8_Diffuse</name>
           </script>
         </material>
@@ -272,7 +272,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_8.obj</uri>
+            <uri>meshes/floor_8.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -286,7 +286,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_9.obj</uri>
+            <uri>meshes/floor_9.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -295,11 +295,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/wood1.png</albedo_map>
+              <albedo_map>meshes/wood1.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_9_Diffuse</name>
           </script>
         </material>
@@ -307,7 +307,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_9.obj</uri>
+            <uri>meshes/floor_9.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -321,7 +321,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_10.obj</uri>
+            <uri>meshes/floor_10.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -330,11 +330,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+              <albedo_map>meshes/white_carpet.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_10_Diffuse</name>
           </script>
         </material>
@@ -342,7 +342,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_10.obj</uri>
+            <uri>meshes/floor_10.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -356,7 +356,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_11.obj</uri>
+            <uri>meshes/floor_11.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -365,11 +365,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/wood1.png</albedo_map>
+              <albedo_map>meshes/wood1.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_11_Diffuse</name>
           </script>
         </material>
@@ -377,7 +377,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_11.obj</uri>
+            <uri>meshes/floor_11.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -391,7 +391,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_12.obj</uri>
+            <uri>meshes/floor_12.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -400,11 +400,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_carpet.png</albedo_map>
+              <albedo_map>meshes/white_carpet.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_12_Diffuse</name>
           </script>
         </material>
@@ -412,7 +412,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_12.obj</uri>
+            <uri>meshes/floor_12.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -426,7 +426,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_13.obj</uri>
+            <uri>meshes/floor_13.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -435,11 +435,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_tiles.png</albedo_map>
+              <albedo_map>meshes/white_tiles.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_13_Diffuse</name>
           </script>
         </material>
@@ -447,7 +447,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_13.obj</uri>
+            <uri>meshes/floor_13.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -461,7 +461,7 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_14.obj</uri>
+            <uri>meshes/floor_14.obj</uri>
           </mesh>
         </geometry>
         <material>
@@ -470,11 +470,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/black_concrete.png</albedo_map>
+              <albedo_map>meshes/black_concrete.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>floor_14_Diffuse</name>
           </script>
         </material>
@@ -482,7 +482,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/floor_14.obj</uri>
+            <uri>meshes/floor_14.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -496,7 +496,7 @@
       <visual name="wall_1">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/wall_1.obj</uri>
+            <uri>meshes/wall_1.obj</uri>
           </mesh>
         </geometry>
         <transparency>0.0</transparency>
@@ -506,11 +506,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/white_wall.png</albedo_map>
+              <albedo_map>meshes/white_wall.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>wall_1_Diffuse</name>
           </script>
         </material>
@@ -518,7 +518,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/wall_1.obj</uri>
+            <uri>meshes/wall_1.obj</uri>
           </mesh>
         </geometry>
         <surface>
@@ -533,7 +533,7 @@
       <visual name="wall_2">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/wall_2.obj</uri>
+            <uri>meshes/wall_2.obj</uri>
           </mesh>
         </geometry>
         <transparency>0.0</transparency>
@@ -543,11 +543,11 @@
           <pbr>
             <metal>
               <metalness>0.0</metalness>
-              <albedo_map>model://pradnicka_office_L1/meshes/wood2.png</albedo_map>
+              <albedo_map>meshes/wood2.png</albedo_map>
             </metal>
           </pbr>
           <script>
-            <uri>model://pradnicka_office_L1/meshes/</uri>
+            <uri>meshes/</uri>
             <name>wall_2_Diffuse</name>
           </script>
         </material>
@@ -555,7 +555,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://pradnicka_office_L1/meshes/wall_2.obj</uri>
+            <uri>meshes/wall_2.obj</uri>
           </mesh>
         </geometry>
         <surface>
