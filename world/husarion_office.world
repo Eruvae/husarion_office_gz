@@ -8210,6 +8210,10 @@
         <kinematic>0</kinematic>
       </link>
       <pose>-1 1 0 0 -0 0</pose>
+      <plugin filename="ignition-gazebo-imu-system" name="gz::sim::systems::Imu">
+      </plugin>
+      <plugin filename="ignition-gazebo-sensors-system" name="gz::sim::systems::Sensors">
+      </plugin>
     </model>
     <model name='Shelf_1'>
       <static>1</static>
