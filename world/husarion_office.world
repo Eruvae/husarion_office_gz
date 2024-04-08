@@ -4973,7 +4973,9 @@
             </box>
           </geometry>
           <material>
+            <ambient>1 1 1 1</ambient>
             <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Wood</name>
@@ -5178,7 +5180,9 @@
             </box>
           </geometry>
           <material>
+            <ambient>1 1 1 1</ambient>
             <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
             <script>
               <uri>file://media/materials/scripts/gazebo.material</uri>
               <name>Gazebo/Wood</name>
@@ -6735,6 +6739,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -6774,6 +6785,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -6813,6 +6831,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -6852,6 +6877,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -6891,6 +6923,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -6930,6 +6969,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -6969,6 +7015,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7008,6 +7061,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7047,6 +7107,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7086,6 +7153,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7125,6 +7199,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7164,6 +7245,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7203,6 +7291,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7242,6 +7337,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
@@ -7281,6 +7383,13 @@
               <name>Gazebo/Wood</name>
             </script>
             <ambient>1 1 1 1</ambient>
+            <diffuse>1 1 1 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <pbr>
+              <metal>
+                <albedo_map>models/Stairs/wood.jpg</albedo_map>
+              </metal>
+            </pbr>
           </material>
           <meta>
             <layer>0</layer>
